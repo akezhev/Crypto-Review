@@ -1,11 +1,11 @@
 /* =========================================================
    НАСТРОЙКИ РЕФЕРАЛЬНЫХ ССЫЛОК
-   Замените значения на свои реферальные ссылки.
    ========================================================= */
 const REFERRAL_LINKS = {
-  bybit: "#", // ← сюда вашу ссылку BYBIT
-  bingx: "#", // ← сюда вашу ссылку BingX
-  pionex: "#", // ← сюда вашу ссылку Pionex
+  bybit:
+    "https://www.bybit.com/invite?ref=460JR2&medium=referral&utm_campaign=evergreen&share_to=link",
+  bingx: "https://bingxdao.com/invite/PMY2YU/",
+  pionex: "https://accounts.pionex.com/ru/signUp?r=08uCq3BCqWP",
 };
 
 /* ---------- 1. Подставляем реферальные ссылки ---------- */
