@@ -126,6 +126,7 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="standarts.css" />
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>₿</text></svg>"
@@ -151,8 +152,7 @@
         </p>
 
         <ul class="hero__meta">
-          <li>Обновлено: 2026</li>
-          <li>Чтение: ~7 минут</li>
+          <li>Обновлено: 04 ноября 2026</li>
           <li>18+</li>
         </ul>
       </div>
@@ -166,6 +166,7 @@
           <li><a href="#intro">Введение</a></li>
           <li><a href="#bybit">BYBIT</a></li>
           <li><a href="#bingx">BingX</a></li>
+          <li><a href="#okx">OKX</a></li>
           <li><a href="#pionex">Pionex</a></li>
           <li><a href="#legal">Правовые нюансы</a></li>
         </ul>
@@ -186,9 +187,8 @@
             русскоязычный интерфейс и качество поддержки.
           </p>
           <p>
-            Ниже — три площадки, которые стабильно удерживают позиции в топе по
-            совокупности этих параметров. Полный список из 10 бирж публикуется
-            частями: этот материал посвящён тройке лидеров подборки.
+            Ниже — пять площадок, которые стабильно удерживают позиции в топе по
+            совокупности этих параметров.
           </p>
 
           <ul class="criteria">
@@ -221,10 +221,10 @@
             class="exchange reveal"
             id="bybit"
             style="
-              --brand: #c89342;
-              --brand-soft: #f8efdc;
-              --brand-ink: #7a5620;
-              --btn-text: #1a2024;
+              --brand: #f8a700;
+              --brand-soft: #222121;
+              --brand-ink: #f8a700;
+              --btn-text: #161617;
             "
           >
             <div class="exchange__media">
@@ -276,7 +276,14 @@
                 >
                   Перейти на сайт
                 </a>
-                <span class="note">Реферальная ссылка · 18+</span>
+                <a
+                  class="link_offical_site"
+                  href="https://www.bybit.com/invite?ref=460JR2&medium=referral&utm_campaign=evergreen&share_to=link"
+                  data-ref="bybit"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow sponsored"
+                  ><span class="note">Официальный сайт</span></a
+                >
               </div>
             </div>
           </article>
@@ -286,9 +293,9 @@
             class="exchange reveal"
             id="bingx"
             style="
-              --brand: #3370b0;
-              --brand-soft: #e3edf9;
-              --brand-ink: #1a4d82;
+              --brand: #0147ff;
+              --brand-soft: #bad9ff;
+              --brand-ink: #0147ff;
               --btn-text: #ffffff;
             "
           >
@@ -342,7 +349,71 @@
                 >
                   Перейти на сайт
                 </a>
-                <span class="note">Реферальная ссылка · 18+</span>
+                <span class="note">Официальный сайт</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- OKX -->
+          <article
+            class="exchange reveal"
+            id="okx"
+            style="
+              --brand: #25292d;
+              --brand-soft: #8b939d;
+              --brand-ink: #1b1d1f;
+              --btn-text: #cfcaca;
+            "
+          >
+            <div class="exchange__media">
+              <span class="exchange__num" aria-hidden="true">03</span>
+              <img
+                src="images/okx.png"
+                alt="Логотип криптобиржи OKX"
+                loading="lazy"
+                width="480"
+                height="480"
+              />
+              <span class="exchange__placeholder" aria-hidden="true">OKX</span>
+            </div>
+
+            <div class="exchange__body">
+              <div class="exchange__head">
+                <h3 class="exchange__title">OKX</h3>
+                <span class="tag">Социальный трейдинг</span>
+              </div>
+
+              <p class="exchange__desc">
+                Доступность: высокая ликвидность и обширная экосистема; доступ к
+                P2P‑рынку; комиссии: конкурентные спот/деривативы, понижаются
+                при росте оборота; функциональность: Web3‑кошелёк, earn,
+                DeFi‑интеграции, C2C‑торговля; плюсы: сильная инфраструктура и
+                глубина стакана; риски: периодическая корректировка способов
+                ввода/вывода для РФ;
+              </p>
+
+              <ul class="features">
+                <li>Копитрейдинг: подписка на стратегии трейдеров</li>
+                <li>Спот, фьючерсы, сеточные боты</li>
+                <li>
+                  Торговые комиссии – спот до 0,1 %, фьючерсы до 0,05 %, P2P – 0
+                  %
+                </li>
+                <li>Низкий порог входа и понятный интерфейс</li>
+                <li>P2P-площадка и покупка криптовалюты картой</li>
+              </ul>
+
+              <div class="exchange__footer">
+                <a
+                  class="btn"
+                  href="#"
+                  data-ref="okx"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow sponsored"
+                >
+                  Перейти на сайт
+                </a>
+                <span class="note">Официальный сайт</span>
               </div>
             </div>
           </article>
@@ -352,14 +423,14 @@
             class="exchange reveal"
             id="pionex"
             style="
-              --brand: #238066;
-              --brand-soft: #d9efe7;
-              --brand-ink: #0f5a46;
+              --brand: #bc710e;
+              --brand-soft: #f8d3a6;
+              --brand-ink: #f58300;
               --btn-text: #ffffff;
             "
           >
             <div class="exchange__media">
-              <span class="exchange__num" aria-hidden="true">03</span>
+              <span class="exchange__num" aria-hidden="true">04</span>
               <img
                 src="images/pionex.png"
                 alt="Логотип криптобиржи Pionex"
@@ -404,10 +475,16 @@
                 >
                   Перейти на сайт
                 </a>
-                <span class="note">Реферальная ссылка · 18+</span>
+                <span class="note">Официальный сайт</span>
               </div>
             </div>
           </article>
+          <hr />
+          <span
+            >*Перед пополнением проверьте доступ и пройдите требуемый KYC —
+            проверку личности.</span
+          >
+          <hr />
         </section>
 
         <!-- LEGAL -->
@@ -425,7 +502,7 @@
               активы и что считается законным или рискованным.
             </p>
 
-            <h3 class="legal__subtitle">⚖️ Основные правовые позиции</h3>
+            <h3 class="legal__subtitle">Основные правовые позиции</h3>
 
             <ul class="legal__list">
               <li>
@@ -474,6 +551,26 @@
               легального оборота. Поэтому пользователям важно соблюдать
               налоговую дисциплину, избегать сомнительных операций и понимать,
               что защита на уровне государства пока минимальна.
+              <br />
+              <br />
+              <p style="color: #e3edf9">
+                В сентябре 2026 года в России заработал
+                <a
+                  class="link_law_on_digital_currencies"
+                  href="https://sozd.duma.gov.ru/bill/1194918-8"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow sponsored"
+                  >закон о цифровых валютах:➚</a
+                >
+                неквалифицированные инвесторы могут покупать BTC, ETH и USDT с
+                лимитом 300.000₽ в год через лицензированных посредников, а
+                криптовалюта по-прежнему запрещена для платежей внутри страны.
+                <br />При этом иностранные биржи продолжают работать с
+                российскими пользователями – через P2P-рынки в рублях, русский
+                интерфейс и поддержку. <br />Лучшие криптобиржи для россиян в
+                2026 году – это площадки без санкционных блокировок аккаунтов и
+                с удобным доступом к рублям.
+              </p>
             </div>
           </div>
         </section>
