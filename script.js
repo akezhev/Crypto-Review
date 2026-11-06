@@ -6,6 +6,7 @@ const REFERRAL_LINKS = {
     "https://www.bybit.com/invite?ref=460JR2&medium=referral&utm_campaign=evergreen&share_to=link",
   bingx: "https://bingxdao.com/invite/PMY2YU/",
   okx: "https://www.okx.com/ru/download?pageSource=referral&channelId=vcrypto&first_ref=cryptop.online&deeplink=okx%3A%2F%2Fminiapp%3Fappid%3Dreferral%26pageurl%3D%252Freferral%252Fhome%26dragToDismiss%3D1%26requireauth%3D1%26openMiniProgramStyle%3D1",
+  whitebird: "https://whitebird.io/signup?refid=DoiV8rdtBWJiGQ",
   pionex: "https://accounts.pionex.com/ru/signUp?r=08uCq3BCqWP",
 };
 

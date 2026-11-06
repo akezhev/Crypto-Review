@@ -2,7 +2,6 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <!-- ✅ ИЗМЕНЕНО: добавлен viewport-fit=cover -->
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, viewport-fit=cover"
@@ -161,12 +160,13 @@
     <!-- ================= NAV ================= -->
     <nav class="topnav" aria-label="Навигация по статье">
       <div class="container topnav__inner">
-        <span class="topnav__title">ТОП-10 · 2026–2027</span>
+        <span class="topnav__title">ТОП-5 · 2026–2027</span>
         <ul class="topnav__list">
-          <li><a href="#intro">Введение</a></li>
+          <li><a href="#intro">В начало</a></li>
           <li><a href="#bybit">BYBIT</a></li>
           <li><a href="#bingx">BingX</a></li>
           <li><a href="#okx">OKX</a></li>
+          <li><a href="#whitebird">Whitebird</a></li>
           <li><a href="#pionex">Pionex</a></li>
           <li><a href="#legal">Правовые нюансы</a></li>
         </ul>
@@ -244,7 +244,9 @@
             <div class="exchange__body">
               <div class="exchange__head">
                 <h3 class="exchange__title">BYBIT</h3>
-                <span class="tag">№ 1 в подборке</span>
+                <span class="tag"
+                  >№ 1 в подборке. Торговля на споте и фьючерсах</span
+                >
               </div>
 
               <p class="exchange__desc">
@@ -293,9 +295,9 @@
             class="exchange reveal"
             id="bingx"
             style="
-              --brand: #0147ff;
-              --brand-soft: #bad9ff;
-              --brand-ink: #0147ff;
+              --brand: #0d4ceb;
+              --brand-soft: #2b57da;
+              --brand-ink: #ffeeee;
               --btn-text: #ffffff;
             "
           >
@@ -316,7 +318,7 @@
             <div class="exchange__body">
               <div class="exchange__head">
                 <h3 class="exchange__title">BingX</h3>
-                <span class="tag">Социальный трейдинг</span>
+                <span class="tag">Торговля на споте и фьючерсах</span>
               </div>
 
               <p class="exchange__desc">
@@ -361,7 +363,7 @@
             style="
               --brand: #25292d;
               --brand-soft: #8b939d;
-              --brand-ink: #1b1d1f;
+              --brand-ink: #efefef;
               --btn-text: #cfcaca;
             "
           >
@@ -380,7 +382,7 @@
             <div class="exchange__body">
               <div class="exchange__head">
                 <h3 class="exchange__title">OKX</h3>
-                <span class="tag">Социальный трейдинг</span>
+                <span class="tag">Торговля на споте и фьючерсах</span>
               </div>
 
               <p class="exchange__desc">
@@ -418,19 +420,90 @@
             </div>
           </article>
 
+          <!-- Whitebird -->
+          <article
+            class="exchange reveal"
+            id="whitebird"
+            style="
+              --brand: #cde9ff;
+              --brand-soft: #e6f0ff;
+              --brand-ink: #6aa7e4;
+              --btn-text: #095ed5;
+            "
+          >
+            <div class="exchange__media">
+              <span class="exchange__num" aria-hidden="true">04</span>
+              <img
+                src="images/whitebird.png"
+                alt="Логотип криптобиржи Whitebird"
+                loading="lazy"
+                width="480"
+                height="480"
+              />
+              <span class="exchange__placeholder" aria-hidden="true"
+                >Whitebird</span
+              >
+            </div>
+
+            <div class="exchange__body">
+              <div class="exchange__head">
+                <h3 class="exchange__title">Whitebird</h3>
+                <span class="tag">Легальная белорусская криптоплатформа</span>
+              </div>
+
+              <p class="exchange__desc">
+                Качественный и надежный криптосервис для клиентов из стран СНГ и
+                из любой точки мира. Сервис для покупки, продажи и хранения
+                криптоактивов c целью инвестиций, диверсификации портфеля и
+                хеджирования рисков. Онлайн доступ цифровым финансам в рамках
+                легального правового поля.
+              </p>
+
+              <ul class="features">
+                <li>
+                  Высокая ликвидность, узкие спреды, минимальные комиссии и
+                  интуитивно понятное управление активами
+                </li>
+                <li>
+                  Две уникальные карты в линейке: карта Crypto от Альфа Банк
+                  (Беларусь) и карта Crypto Статус
+                </li>
+                <li>
+                  Встроенная аналитика по портфелю и динамическая переоценка
+                  баланса в разных валютах
+                </li>
+                <li>Простой интерфейс, подходящий новичкам</li>
+                <li>Спотовая торговля очень удобная</li>
+              </ul>
+
+              <div class="exchange__footer">
+                <a
+                  class="btn"
+                  href="#"
+                  data-ref="whitebird"
+                  target="_blank"
+                  rel="noopener noreferrer nofollow sponsored"
+                >
+                  Перейти на сайт
+                </a>
+                <span class="note">Официальный сайт</span>
+              </div>
+            </div>
+          </article>
+
           <!-- Pionex -->
           <article
             class="exchange reveal"
             id="pionex"
             style="
-              --brand: #bc710e;
-              --brand-soft: #f8d3a6;
-              --brand-ink: #f58300;
+              --brand: #ff9a16;
+              --brand-soft: #ffa231;
+              --brand-ink: #ffffff;
               --btn-text: #ffffff;
             "
           >
             <div class="exchange__media">
-              <span class="exchange__num" aria-hidden="true">04</span>
+              <span class="exchange__num" aria-hidden="true">05</span>
               <img
                 src="images/pionex.png"
                 alt="Логотип криптобиржи Pionex"
@@ -446,7 +519,7 @@
             <div class="exchange__body">
               <div class="exchange__head">
                 <h3 class="exchange__title">Pionex</h3>
-                <span class="tag">Автоматизация</span>
+                <span class="tag">Торговля ботами</span>
               </div>
 
               <p class="exchange__desc">
@@ -480,11 +553,12 @@
             </div>
           </article>
           <hr />
-          <span
-            >*Перед пополнением проверьте доступ и пройдите требуемый KYC —
-            проверку личности.</span
-          >
-          <hr />
+          <div style="text-align: right; font-size: 0.7em">
+            <span
+              >*Перед пополнением пройдите требуемый KYC — проверку
+              личности.</span
+            >
+          </div>
         </section>
 
         <!-- LEGAL -->
