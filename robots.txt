@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://akezhev.github.io/Crypto-Review/sitemap.xml
